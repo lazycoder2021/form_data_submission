@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        *{
+            padding:0px;
+            margin:0px;
+            box-sizing:border-box; 
+            font-family: 'Segoe UI'
+        }
+
+        form{
+            border:1px solid black;
+            width:400px;
+            margin:auto;
+            padding:10px 20px;
+        }
+
+        form input{
+            width:100%; 
+            padding:5px;
+        }
+
+        form button{
+            width:100%; 
+            font-size:16px;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="font-weight:100;text-align:center;margin-top:200px;">DATA SUBMISSION -- FROM FRONTEND TO BACKEND -- USING HTML FORMS </h2><br/>
+    <form action="/login" method="POST">
+        Email: <input type="text" name="email" /><br/>
+        Password: <input type="text" name="password" /><br/><br/>
+        <input type="submit">
+    </form>
+    <center>
+        <br/>
+        REQUEST -- WHAT YOU SEND FROM HTML FORM TO SERVER<br/>
+        RESPONSE -- WHAT YOU RECEIVE FROM SERVER<br/>
+        NAME OR CLASS - HTML ATTRIBUTE USING WHICH YOU CAN SEND HTML DATA VIA FORMS (OR API CALLS)
+    </center>
+</body>
+</html>
